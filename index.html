@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simulation QCM + LLM</title>
+  <link rel="stylesheet" href="/static/style.css?v=10" />
+</head>
+<body>
+  <div class="container">
+
+    <section id="screen-intro" class="screen visible fade-in">
+      <h1>Étude expérimentale : QCM avec ou sans LLM</h1>
+      <p>Bienvenue ! Cette expérience observe l'impact d’un assistant IA (LLM) sur des QCM. Certaines sessions ont accès à un LLM intégré à l’interface, d’autres non (tirage aléatoire). Les réponses sont <strong>anonymes</strong>. Nous mesurons l’ordre, les retours aux questions, le temps de réflexion et l’usage du LLM. À la fin, nous modélisons la <em>difficulté</em> (3PL) de chaque item.</p>
+      <p class="note">Données traitées dans le cadre d’une étude pédagogique. Aucune donnée nominative n’est collectée.</p>
+      <button class="btn-rumba transparent" id="go-consent"><span class="label">Continuer</span></button>
+    </section>
+
+    <section id="screen-consent" class="screen">
+      <h2>Consentement éclairé</h2>
+      <p>Cette étude respecte le <strong>RGPD</strong> et la <strong>Loi Informatique et Libertés</strong>. Vos données sont anonymisées (ID aléatoire), conservées localement le temps de l’analyse, sans transfert externe. Vous pouvez interrompre à tout moment sans justification. Participation volontaire, sans compensation.</p>
+      <label class="consent"><input type="checkbox" id="consent-box"> <span>Je consens à participer de manière anonyme à l’étude.</span></label>
+      <div class="actions"><button class="btn-rumba transparent" id="consent-continue" disabled>J’accepte et je continue</button></div>
+    </section>
+
+    <section id="screen-params" class="screen">
+      <h2>Paramétrage</h2>
+      <div class="grid">
+        <label>Thématique
+          <select id="qcm_type">
+            <option value="commerce">Commerce</option>
+            <option value="immobilier">Immobilier</option>
+            <option value="supplychain">SupplyChain</option>
+            <option value="politique">Politique</option>
+            <option value="mathematiques">Mathématiques</option>
+            <option value="culture">Culture générale</option>
+          </select>
+        </label>
+        <label>Niveau d’étude
+          <select id="study_level"><option>Lycée</option><option>Licence</option><option>Master</option></select>
+        </label>
+        <label>Secteur
+          <select id="sector">
+            <option value="commerce">Commerce</option>
+            <option value="immobilier">Immobilier</option>
+            <option value="supplychain">SupplyChain</option>
+            <option value="autre">Autre</option>
+          </select>
+        </label>
+      </div>
+      <div class="actions"><button class="btn-rumba transparent" id="btn-begin">Débuter</button></div>
+      <div id="llm-ping" class="ping"></div>
+    </section>
+
+    <section id="screen-draw" class="screen">
+      <h2>Tirage au sort</h2>
+      <div class="coin" id="coin"></div>
+      <p id="coin-result" class="result"></p>
+      <div class="dice hidden" id="dice">🎲</div>
+      <p id="dice-result" class="result"></p>
+      <div class="actions"><button class="btn-rumba transparent" id="to-predict" disabled>Continuer</button></div>
+    </section>
+
+    <section id="screen-predict" class="screen">
+      <h2>Prédisez votre score /12</h2>
+      <input id="pred-input" type="number" min="0" max="12" step="1" value="6">
+      <div class="actions"><button class="btn-rumba transparent" id="pred-go">Valider</button></div>
+    </section>
+
+    <section id="screen-qcm" class="screen">
+      <h2>QCM</h2>
+      <div class="qcm-wrapper" id="qcm-wrapper"><div class="qcm-track" id="qcm-track"></div></div>
+      <aside class="llm-panel" id="llm-panel">
+        <h3>Assistant LLM</h3>
+        <div id="llm-status" class="status">Disponibilité…</div>
+        <div id="llm-chat-log" class="chat-log"></div>
+        <div class="chat-input">
+          <input id="llm-input" placeholder="Posez votre question…" />
+          <button class="btn-rumba transparent" id="llm-send">Envoyer</button>
+        </div>
+      </aside>
+      <div class="actions full"><button class="btn-rumba transparent" id="finish">Terminer</button></div>
+    </section>
+
+    <section id="screen-result" class="screen">
+      <h2>Résultats</h2>
+      <div id="result-box"></div>
+      <p class="note">Merci pour votre participation.</p>
+      <div class="actions"><button class="btn-rumba transparent" onclick="window.location.reload()">Relancer</button></div>
+    </section>
+
+  </div>
+  <script src="/static/app.js?v=10"></script>
+</body>
+</html>

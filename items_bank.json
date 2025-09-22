@@ -1,0 +1,7346 @@
+[
+  {
+    "id": "commerce_Lycée_commerce_0",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[commerce/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_commerce_1",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[commerce/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_commerce_2",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[commerce/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_commerce_3",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[commerce/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_commerce_4",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[commerce/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_commerce_5",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[commerce/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_immobilier_0",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[commerce/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_immobilier_1",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[commerce/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_immobilier_2",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[commerce/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_immobilier_3",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[commerce/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_immobilier_4",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[commerce/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_immobilier_5",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[commerce/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_supplychain_0",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[commerce/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_supplychain_1",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[commerce/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_supplychain_2",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[commerce/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_supplychain_3",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[commerce/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_supplychain_4",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[commerce/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_supplychain_5",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[commerce/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_autre_0",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[commerce/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_autre_1",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[commerce/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_autre_2",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[commerce/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_autre_3",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[commerce/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_autre_4",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[commerce/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Lycée_autre_5",
+    "theme": "commerce",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[commerce/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_commerce_0",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[commerce/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_commerce_1",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[commerce/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_commerce_2",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[commerce/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_commerce_3",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[commerce/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_commerce_4",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[commerce/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_commerce_5",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[commerce/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_immobilier_0",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[commerce/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_immobilier_1",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[commerce/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_immobilier_2",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[commerce/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_immobilier_3",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[commerce/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_immobilier_4",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[commerce/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_immobilier_5",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[commerce/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_supplychain_0",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[commerce/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_supplychain_1",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[commerce/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_supplychain_2",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[commerce/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_supplychain_3",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[commerce/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_supplychain_4",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[commerce/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_supplychain_5",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[commerce/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_autre_0",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[commerce/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_autre_1",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[commerce/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_autre_2",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[commerce/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_autre_3",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[commerce/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_autre_4",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[commerce/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Licence_autre_5",
+    "theme": "commerce",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[commerce/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_commerce_0",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[commerce/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_commerce_1",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[commerce/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_commerce_2",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[commerce/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_commerce_3",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[commerce/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_commerce_4",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[commerce/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_commerce_5",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[commerce/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_immobilier_0",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[commerce/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_immobilier_1",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[commerce/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_immobilier_2",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[commerce/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_immobilier_3",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[commerce/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_immobilier_4",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[commerce/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_immobilier_5",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[commerce/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_supplychain_0",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[commerce/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_supplychain_1",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[commerce/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_supplychain_2",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[commerce/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_supplychain_3",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[commerce/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_supplychain_4",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[commerce/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_supplychain_5",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[commerce/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_autre_0",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[commerce/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_autre_1",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[commerce/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_autre_2",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[commerce/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_autre_3",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[commerce/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_autre_4",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[commerce/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "commerce_Master_autre_5",
+    "theme": "commerce",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[commerce/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_commerce_0",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[immobilier/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_commerce_1",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[immobilier/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_commerce_2",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[immobilier/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_commerce_3",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[immobilier/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_commerce_4",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[immobilier/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_commerce_5",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[immobilier/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_immobilier_0",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[immobilier/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_immobilier_1",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[immobilier/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_immobilier_2",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[immobilier/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_immobilier_3",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[immobilier/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_immobilier_4",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[immobilier/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_immobilier_5",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[immobilier/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_supplychain_0",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[immobilier/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_supplychain_1",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[immobilier/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_supplychain_2",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[immobilier/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_supplychain_3",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[immobilier/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_supplychain_4",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[immobilier/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_supplychain_5",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[immobilier/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_autre_0",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[immobilier/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_autre_1",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[immobilier/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_autre_2",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[immobilier/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_autre_3",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[immobilier/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_autre_4",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[immobilier/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Lycée_autre_5",
+    "theme": "immobilier",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[immobilier/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_commerce_0",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[immobilier/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_commerce_1",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[immobilier/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_commerce_2",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[immobilier/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_commerce_3",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[immobilier/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_commerce_4",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[immobilier/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_commerce_5",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[immobilier/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_immobilier_0",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[immobilier/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_immobilier_1",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[immobilier/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_immobilier_2",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[immobilier/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_immobilier_3",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[immobilier/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_immobilier_4",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[immobilier/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_immobilier_5",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[immobilier/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_supplychain_0",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[immobilier/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_supplychain_1",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[immobilier/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_supplychain_2",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[immobilier/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_supplychain_3",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[immobilier/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_supplychain_4",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[immobilier/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_supplychain_5",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[immobilier/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_autre_0",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[immobilier/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_autre_1",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[immobilier/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_autre_2",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[immobilier/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_autre_3",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[immobilier/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_autre_4",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[immobilier/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Licence_autre_5",
+    "theme": "immobilier",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[immobilier/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_commerce_0",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[immobilier/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_commerce_1",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[immobilier/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_commerce_2",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[immobilier/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_commerce_3",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[immobilier/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_commerce_4",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[immobilier/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_commerce_5",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[immobilier/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_immobilier_0",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[immobilier/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_immobilier_1",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[immobilier/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_immobilier_2",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[immobilier/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_immobilier_3",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[immobilier/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_immobilier_4",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[immobilier/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_immobilier_5",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[immobilier/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_supplychain_0",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[immobilier/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_supplychain_1",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[immobilier/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_supplychain_2",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[immobilier/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_supplychain_3",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[immobilier/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_supplychain_4",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[immobilier/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_supplychain_5",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[immobilier/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_autre_0",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[immobilier/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_autre_1",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[immobilier/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_autre_2",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[immobilier/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_autre_3",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[immobilier/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_autre_4",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[immobilier/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "immobilier_Master_autre_5",
+    "theme": "immobilier",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[immobilier/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_commerce_0",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[supplychain/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_commerce_1",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[supplychain/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_commerce_2",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[supplychain/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_commerce_3",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[supplychain/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_commerce_4",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[supplychain/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_commerce_5",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[supplychain/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_immobilier_0",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[supplychain/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_immobilier_1",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[supplychain/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_immobilier_2",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[supplychain/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_immobilier_3",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[supplychain/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_immobilier_4",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[supplychain/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_immobilier_5",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[supplychain/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_supplychain_0",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[supplychain/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_supplychain_1",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[supplychain/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_supplychain_2",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[supplychain/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_supplychain_3",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[supplychain/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_supplychain_4",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[supplychain/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_supplychain_5",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[supplychain/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_autre_0",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[supplychain/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_autre_1",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[supplychain/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_autre_2",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[supplychain/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_autre_3",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[supplychain/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_autre_4",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[supplychain/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Lycée_autre_5",
+    "theme": "supplychain",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[supplychain/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_commerce_0",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[supplychain/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_commerce_1",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[supplychain/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_commerce_2",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[supplychain/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_commerce_3",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[supplychain/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_commerce_4",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[supplychain/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_commerce_5",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[supplychain/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_immobilier_0",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[supplychain/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_immobilier_1",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[supplychain/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_immobilier_2",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[supplychain/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_immobilier_3",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[supplychain/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_immobilier_4",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[supplychain/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_immobilier_5",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[supplychain/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_supplychain_0",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[supplychain/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_supplychain_1",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[supplychain/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_supplychain_2",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[supplychain/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_supplychain_3",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[supplychain/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_supplychain_4",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[supplychain/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_supplychain_5",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[supplychain/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_autre_0",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[supplychain/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_autre_1",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[supplychain/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_autre_2",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[supplychain/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_autre_3",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[supplychain/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_autre_4",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[supplychain/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Licence_autre_5",
+    "theme": "supplychain",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[supplychain/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_commerce_0",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[supplychain/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_commerce_1",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[supplychain/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_commerce_2",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[supplychain/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_commerce_3",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[supplychain/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_commerce_4",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[supplychain/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_commerce_5",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[supplychain/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_immobilier_0",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[supplychain/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_immobilier_1",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[supplychain/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_immobilier_2",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[supplychain/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_immobilier_3",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[supplychain/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_immobilier_4",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[supplychain/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_immobilier_5",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[supplychain/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_supplychain_0",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[supplychain/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_supplychain_1",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[supplychain/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_supplychain_2",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[supplychain/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_supplychain_3",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[supplychain/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_supplychain_4",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[supplychain/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_supplychain_5",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[supplychain/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_autre_0",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[supplychain/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_autre_1",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[supplychain/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_autre_2",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[supplychain/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_autre_3",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[supplychain/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_autre_4",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[supplychain/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "supplychain_Master_autre_5",
+    "theme": "supplychain",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[supplychain/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_commerce_0",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[politique/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_commerce_1",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[politique/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_commerce_2",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[politique/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_commerce_3",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[politique/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_commerce_4",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[politique/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_commerce_5",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[politique/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_immobilier_0",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[politique/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_immobilier_1",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[politique/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_immobilier_2",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[politique/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_immobilier_3",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[politique/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_immobilier_4",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[politique/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_immobilier_5",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[politique/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_supplychain_0",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[politique/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_supplychain_1",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[politique/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_supplychain_2",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[politique/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_supplychain_3",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[politique/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_supplychain_4",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[politique/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_supplychain_5",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[politique/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_autre_0",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[politique/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_autre_1",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[politique/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_autre_2",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[politique/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_autre_3",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[politique/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_autre_4",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[politique/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Lycée_autre_5",
+    "theme": "politique",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[politique/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_commerce_0",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[politique/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_commerce_1",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[politique/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_commerce_2",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[politique/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_commerce_3",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[politique/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_commerce_4",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[politique/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_commerce_5",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[politique/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_immobilier_0",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[politique/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_immobilier_1",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[politique/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_immobilier_2",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[politique/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_immobilier_3",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[politique/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_immobilier_4",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[politique/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_immobilier_5",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[politique/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_supplychain_0",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[politique/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_supplychain_1",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[politique/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_supplychain_2",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[politique/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_supplychain_3",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[politique/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_supplychain_4",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[politique/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_supplychain_5",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[politique/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_autre_0",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[politique/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_autre_1",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[politique/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_autre_2",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[politique/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_autre_3",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[politique/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_autre_4",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[politique/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Licence_autre_5",
+    "theme": "politique",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[politique/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_commerce_0",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[politique/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_commerce_1",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[politique/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_commerce_2",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[politique/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_commerce_3",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[politique/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_commerce_4",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[politique/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_commerce_5",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[politique/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_immobilier_0",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[politique/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_immobilier_1",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[politique/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_immobilier_2",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[politique/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_immobilier_3",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[politique/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_immobilier_4",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[politique/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_immobilier_5",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[politique/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_supplychain_0",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[politique/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_supplychain_1",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[politique/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_supplychain_2",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[politique/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_supplychain_3",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[politique/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_supplychain_4",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[politique/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_supplychain_5",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[politique/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_autre_0",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[politique/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_autre_1",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[politique/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_autre_2",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[politique/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_autre_3",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[politique/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_autre_4",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[politique/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "politique_Master_autre_5",
+    "theme": "politique",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[politique/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_commerce_0",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[mathematiques/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_commerce_1",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[mathematiques/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_commerce_2",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[mathematiques/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_commerce_3",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[mathematiques/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_commerce_4",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[mathematiques/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_commerce_5",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[mathematiques/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_immobilier_0",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[mathematiques/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_immobilier_1",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[mathematiques/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_immobilier_2",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[mathematiques/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_immobilier_3",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[mathematiques/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_immobilier_4",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[mathematiques/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_immobilier_5",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[mathematiques/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_supplychain_0",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[mathematiques/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_supplychain_1",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[mathematiques/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_supplychain_2",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[mathematiques/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_supplychain_3",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[mathematiques/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_supplychain_4",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[mathematiques/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_supplychain_5",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[mathematiques/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_autre_0",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[mathematiques/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_autre_1",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[mathematiques/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_autre_2",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[mathematiques/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_autre_3",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[mathematiques/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_autre_4",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[mathematiques/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Lycée_autre_5",
+    "theme": "mathematiques",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[mathematiques/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_commerce_0",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[mathematiques/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_commerce_1",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[mathematiques/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_commerce_2",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[mathematiques/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_commerce_3",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[mathematiques/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_commerce_4",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[mathematiques/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_commerce_5",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[mathematiques/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_immobilier_0",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[mathematiques/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_immobilier_1",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[mathematiques/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_immobilier_2",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[mathematiques/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_immobilier_3",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[mathematiques/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_immobilier_4",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[mathematiques/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_immobilier_5",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[mathematiques/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_supplychain_0",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[mathematiques/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_supplychain_1",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[mathematiques/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_supplychain_2",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[mathematiques/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_supplychain_3",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[mathematiques/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_supplychain_4",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[mathematiques/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_supplychain_5",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[mathematiques/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_autre_0",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[mathematiques/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_autre_1",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[mathematiques/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_autre_2",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[mathematiques/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_autre_3",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[mathematiques/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_autre_4",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[mathematiques/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Licence_autre_5",
+    "theme": "mathematiques",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[mathematiques/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_commerce_0",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[mathematiques/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_commerce_1",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[mathematiques/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_commerce_2",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[mathematiques/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_commerce_3",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[mathematiques/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_commerce_4",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[mathematiques/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_commerce_5",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[mathematiques/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_immobilier_0",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[mathematiques/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_immobilier_1",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[mathematiques/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_immobilier_2",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[mathematiques/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_immobilier_3",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[mathematiques/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_immobilier_4",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[mathematiques/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_immobilier_5",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[mathematiques/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_supplychain_0",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[mathematiques/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_supplychain_1",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[mathematiques/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_supplychain_2",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[mathematiques/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_supplychain_3",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[mathematiques/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_supplychain_4",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[mathematiques/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_supplychain_5",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[mathematiques/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_autre_0",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[mathematiques/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_autre_1",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[mathematiques/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_autre_2",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[mathematiques/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_autre_3",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[mathematiques/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_autre_4",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[mathematiques/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "mathematiques_Master_autre_5",
+    "theme": "mathematiques",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[mathematiques/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_commerce_0",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[culture/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_commerce_1",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[culture/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_commerce_2",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[culture/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_commerce_3",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[culture/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_commerce_4",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[culture/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_commerce_5",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "commerce",
+    "question": "[culture/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_immobilier_0",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[culture/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_immobilier_1",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[culture/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_immobilier_2",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[culture/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_immobilier_3",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[culture/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_immobilier_4",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[culture/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_immobilier_5",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "immobilier",
+    "question": "[culture/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_supplychain_0",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[culture/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_supplychain_1",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[culture/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_supplychain_2",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[culture/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_supplychain_3",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[culture/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_supplychain_4",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[culture/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_supplychain_5",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "supplychain",
+    "question": "[culture/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_autre_0",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[culture/Lycée] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_autre_1",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[culture/Lycée] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_autre_2",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[culture/Lycée] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_autre_3",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[culture/Lycée] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_autre_4",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[culture/Lycée] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Lycée_autre_5",
+    "theme": "culture",
+    "level": "Lycée",
+    "sector": "autre",
+    "question": "[culture/Lycée] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_commerce_0",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[culture/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_commerce_1",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[culture/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_commerce_2",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[culture/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_commerce_3",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[culture/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_commerce_4",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[culture/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_commerce_5",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "commerce",
+    "question": "[culture/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_immobilier_0",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[culture/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_immobilier_1",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[culture/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_immobilier_2",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[culture/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_immobilier_3",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[culture/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_immobilier_4",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[culture/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_immobilier_5",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "immobilier",
+    "question": "[culture/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_supplychain_0",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[culture/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_supplychain_1",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[culture/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_supplychain_2",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[culture/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_supplychain_3",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[culture/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_supplychain_4",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[culture/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_supplychain_5",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "supplychain",
+    "question": "[culture/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_autre_0",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[culture/Licence] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_autre_1",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[culture/Licence] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_autre_2",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[culture/Licence] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_autre_3",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[culture/Licence] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 2,
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_autre_4",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[culture/Licence] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Licence_autre_5",
+    "theme": "culture",
+    "level": "Licence",
+    "sector": "autre",
+    "question": "[culture/Licence] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.0,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_commerce_0",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[culture/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_commerce_1",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[culture/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_commerce_2",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[culture/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_commerce_3",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[culture/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_commerce_4",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[culture/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_commerce_5",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "commerce",
+    "question": "[culture/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_immobilier_0",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[culture/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_immobilier_1",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[culture/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_immobilier_2",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[culture/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_immobilier_3",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[culture/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_immobilier_4",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[culture/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_immobilier_5",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "immobilier",
+    "question": "[culture/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_supplychain_0",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[culture/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_supplychain_1",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[culture/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_supplychain_2",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[culture/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_supplychain_3",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[culture/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_supplychain_4",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[culture/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_supplychain_5",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "supplychain",
+    "question": "[culture/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_autre_0",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[culture/Master] Q1: Quelle est la bonne option ? (b=-1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": -1.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_autre_1",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[culture/Master] Q2: Quelle est la bonne option ? (b=-0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": -0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_autre_2",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[culture/Master] Q3: Quelle est la bonne option ? (b=+0.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_autre_3",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[culture/Master] Q4: Quelle est la bonne option ? (b=+0.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 1,
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_autre_4",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[culture/Master] Q5: Quelle est la bonne option ? (b=+1.00)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 0,
+    "a": 1.2,
+    "b": 1.0,
+    "c": 0.2
+  },
+  {
+    "id": "culture_Master_autre_5",
+    "theme": "culture",
+    "level": "Master",
+    "sector": "autre",
+    "question": "[culture/Master] Q6: Quelle est la bonne option ? (b=+1.50)",
+    "choices": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer_index": 3,
+    "a": 1.2,
+    "b": 1.5,
+    "c": 0.2
+  }
+]
