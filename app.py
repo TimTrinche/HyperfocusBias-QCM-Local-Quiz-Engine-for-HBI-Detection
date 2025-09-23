@@ -1,252 +1,381 @@
 
-import os, json, uuid, math, random, datetime, csv, pathlib
+import os, json, uuid, time, random, datetime, csv
+from pathlib import Path
 from typing import List, Dict, Any
-from flask import Flask, jsonify, request, render_template, send_from_directory
 import pandas as pd
 import requests
+from flask import Flask, jsonify, request, send_from_directory, render_template
 from dotenv import load_dotenv
 
-load_dotenv()
+BASE = Path(__file__).resolve().parent
+load_dotenv(BASE/".env")
 
-BASE_DIR = pathlib.Path(__file__).parent.resolve()
-EXPORT_DIR = BASE_DIR / "exports" / "sessions"
-ANALYTICS_DIR = BASE_DIR / "exports" / "analytics"
-ITEMS_PATH = BASE_DIR / "items_bank.json"
-HBI_PATH = BASE_DIR / "HBI_QCM_bank_FULL_balanced.json" 
+app = Flask(__name__, static_folder=str(BASE/"static"), template_folder=str(BASE/"templates"))
+app.config["JSON_AS_ASCII"] = False
 
-EXPORT_DIR.mkdir(parents=True, exist_ok=True)
-ANALYTICS_DIR.mkdir(parents=True, exist_ok=True)
+# ----------- ENV -----------
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434").rstrip("/")
+LLM_POOL = [s.strip() for s in os.getenv("LLM_POOL","qwen2:latest,mistral:latest,llama3:latest").split(",") if s.strip()]
+LLM_SPEED_MODE = os.getenv("LLM_SPEED_MODE","balanced")
+LLM_NUM_PREDICT = int(os.getenv("LLM_NUM_PREDICT","180"))
+LLM_NUM_CTX = int(os.getenv("LLM_NUM_CTX","1024"))
+LLM_TIMEOUT = int(os.getenv("LLM_TIMEOUT","45"))
 
-OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
-LLM_POOL = [m.strip() for m in os.getenv("LLM_POOL", "qwen:latest,mistral,qwen2:latest,llama3:latest").split(",")]
-LLM_SPEED_MODE = os.getenv("LLM_SPEED_MODE", "balanced")  
-LLM_NUM_PREDICT = int(os.getenv("LLM_NUM_PREDICT", "200"))
-LLM_NUM_CTX = int(os.getenv("LLM_NUM_CTX", "1536"))
+EXPORTS_DIR = BASE/"exports"
+SESSION_DIR = EXPORTS_DIR/"sessions"
+ANALYTICS_DIR = EXPORTS_DIR/"analytics"
+for p in [EXPORTS_DIR, SESSION_DIR, ANALYTICS_DIR]:
+    p.mkdir(parents=True, exist_ok=True)
 
-app = Flask(__name__)
+# ----------- BANK LOADER -----------
+BANK_FILE = BASE/"HBI_QCM_bank_FULL_balanced.json"
 
-RUNTIME = {"sessions": {}}
-
-def now_iso():
-    return datetime.datetime.utcnow().isoformat()
-
-def load_bank() -> List[Dict[str, Any]]:
-    if HBI_PATH.exists():
-        try:
-            data = json.loads(HBI_PATH.read_text())
-            if isinstance(data, list) and data and "question" in data[0]:
-                return data
-        except Exception:
-            pass
-    return json.loads(ITEMS_PATH.read_text())
-
-def stratified_sample(items: List[Dict[str, Any]], n=12) -> List[Dict[str, Any]]:
-    '''Distribute difficulties (3PL b) across bins to avoid monotonic order.'''
-    if not items:
-        return []
-    with_b = [it for it in items if "b" in it]
-    base = with_b if len(with_b) >= n else items[:]
-    bs = [it.get("b", 0.0) for it in base]
-    q1, q2 = pd.Series(bs).quantile([0.33, 0.66]).tolist()
-    low = [it for it in base if it.get("b", 0.0) <= q1]
-    mid = [it for it in base if q1 < it.get("b", 0.0) <= q2]
-    high = [it for it in base if it.get("b", 0.0) > q2]
-    random.shuffle(low); random.shuffle(mid); random.shuffle(high)
-    out = []
-    while len(out) < n and any([low, mid, high]):
-        for bucket in (low, mid, high):
-            if bucket and len(out) < n:
-                out.append(bucket.pop())
-    random.shuffle(out)
-    for it in out:
-        if "choices" in it and isinstance(it["choices"], list) and "answer_index" in it:
-            k = random.randrange(len(it["choices"]))
-            it["choices"] = it["choices"][k:] + it["choices"][:k]
-            it["answer_index"] = (it["answer_index"] - k) % len(it["choices"])
-    return out
-
-def three_pl_p(a, b, c, theta):
-    return c + (1 - c) / (1 + math.exp(-1.7 * a * (theta - b)))
-
-def estimate_theta_grid(responses):
-    grid = [x/10 for x in range(-30, 31)]
-    best_t, best_ll = 0.0, -1e9
-    for t in grid:
-        ll = 0.0
-        for r, a, b, c in responses:
-            p = three_pl_p(a, b, c, t)
-            p = min(max(p,1e-6), 1-1e-6)
-            ll += math.log(p if r else (1-p))
-        if ll > best_ll:
-            best_ll, best_t = ll, t
-    return best_t
-
-def ensure_csv_headers(path, headers):
-    if not path.exists():
-        with path.open("w", newline="", encoding="utf-8") as f:
-            csv.writer(f).writerow(headers)
-
-def update_aggregates():
-    all_path = ANALYTICS_DIR / "all_sessions.csv"
-    if not all_path.exists():
-        return
-    df = pd.read_csv(all_path)
-    out = {}
-    if not df.empty:
-        out["avg_by_level"] = df.groupby("study_level")["final_score"].mean().round(3).to_dict()
-        out["avg_by_sector"] = df.groupby("sector")["final_score"].mean().round(3).to_dict()
-        if {"sector","qcm_type"}.issubset(df.columns):
-            ct = pd.crosstab(df["sector"], df["qcm_type"])
+def _iter_jsonl(path: Path):
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
             try:
-                from scipy.stats import chi2_contingency as _chi2
-                chi2, p, dof, exp = _chi2(ct.values)
-                n = ct.values.sum()
-                r, k = ct.shape
-                v = (chi2 / (n * (min(r-1, k-1) if min(r-1, k-1)>0 else 1))) ** 0.5
-                out["cramers_v_sector_theme"] = round(float(v), 4)
+                yield json.loads(line)
             except Exception:
-                out["cramers_v_sector_theme"] = None
-    (ANALYTICS_DIR / "aggregates.json").write_text(json.dumps(out, ensure_ascii=False, indent=2))
+                continue
 
+def _normalize_item(it: Dict[str,Any]) -> Dict[str,Any]:
+    # question
+    q = it.get("question") or it.get("stem") or it.get("prompt") or ""
+    # options
+    options = it.get("options") or it.get("choices") or it.get("answers") or []
+    if isinstance(options, dict):
+        ksorted = sorted(options.keys())
+        options = [options[k] for k in ksorted]
+    # answer -> index
+    ans = it.get("answer") or it.get("correct") or it.get("correct_answer") or it.get("solution")
+    answer_index = None
+    if isinstance(ans, (int, float)):
+        idx = int(ans)
+        if 0 <= idx < len(options):
+            answer_index = idx
+    elif isinstance(ans, str):
+        s = ans.strip()
+        letters = {"A":0,"B":1,"C":2,"D":3,"E":4}
+        if s in letters and letters[s] < len(options):
+            answer_index = letters[s]
+        else:
+            for i,opt in enumerate(options):
+                if str(opt).strip().lower() == s.lower():
+                    answer_index = i; break
+    if answer_index is None and options:
+        answer_index = 0
+
+    theme = it.get("theme") or it.get("qcm_type") or it.get("topic") or it.get("domain") or "général"
+    level = it.get("level") or it.get("study_level") or it.get("niveau") or "Licence"
+    sector = it.get("sector") or it.get("secteur") or it.get("field") or "général"
+
+    def _f(x):
+        try:
+            return float(x) if x is not None else None
+        except Exception:
+            return None
+
+    return {
+        "id": it.get("id") or f"item-{uuid.uuid4().hex[:8]}",
+        "question": str(q),
+        "options": [str(x) for x in options],
+        "answer_index": answer_index,
+        "theme": str(theme),
+        "level": str(level),
+        "sector": str(sector),
+        "a": _f(it.get("a")),
+        "b": _f(it.get("b")),
+        "c": _f(it.get("c")),
+    }
+
+def load_bank() -> List[Dict[str,Any]]:
+    if not BANK_FILE.exists():
+        return []
+    text = BANK_FILE.read_text(encoding="utf-8").strip()
+    if not text:
+        return []
+    try:
+        obj = json.loads(text)
+        if isinstance(obj, list):
+            items = obj
+        elif isinstance(obj, dict):
+            items = obj.get("items") or obj.get("data") or []
+        else:
+            items = []
+    except Exception:
+        items = list(_iter_jsonl(BANK_FILE))
+
+    norm = []
+    for it in items:
+        if isinstance(it, dict):
+            try:
+                norm.append(_normalize_item(it))
+            except Exception:
+                continue
+    return norm
+
+BANK = load_bank()
+if not BANK:
+    # fallback already written in the packaged json
+    BANK = load_bank()
+
+# ----------- Utilities -----------
+def interleave_by_difficulty(items: List[Dict[str,Any]], n: int = 12) -> List[Dict[str,Any]]:
+    pool = items[:]
+    if not pool:
+        return []
+    for it in pool:
+        it["_bscore"] = it["b"] if isinstance(it.get("b"), (int,float)) else random.uniform(-0.5,0.5)
+    pool.sort(key=lambda x: x["_bscore"])
+    n = min(n, len(pool))
+    q1 = pool[:max(1, len(pool)//3)]
+    q2 = pool[max(1, len(pool)//3): max(2, 2*len(pool)//3)]
+    q3 = pool[max(2, 2*len(pool)//3):]
+    seq = []
+    while (q1 or q2 or q3) and len(seq) < n:
+        if q1: seq.append(q1.pop(0))
+        if q3 and len(seq) < n: seq.append(q3.pop(0))
+        if q2 and len(seq) < n: seq.append(q2.pop(0))
+    for it in seq:
+        it.pop("_bscore", None)
+    return seq[:n]
+
+def select_items(theme, level, sector, n=12):
+    def eq(a,b): return a and b and a.strip().lower() == b.strip().lower()
+    cand = [it for it in BANK if (eq(it["theme"], theme) if theme else True)
+                             and (eq(it["level"], level) if level else True)
+                             and (eq(it["sector"], sector) if sector else True)]
+    if len(cand) < n:
+        cand = [it for it in BANK if (eq(it["theme"], theme) if theme else True)]
+        if len(cand) < n:
+            cand = BANK[:]
+    return interleave_by_difficulty(cand, n)
+
+SESSIONS: Dict[str, Dict[str,Any]] = {}
+
+# ----------- Routes -----------
 @app.route("/")
-def index():
+def home():
     return render_template("index.html")
 
 @app.get("/api/llm_ping")
-def api_llm_ping():
+def llm_ping():
     have = []
     try:
-        r = requests.get(f"{OLLAMA_BASE_URL}/api/tags", timeout=5); r.raise_for_status()
-        have = [m["name"] for m in r.json().get("models", [])]
+        r = requests.get(f"{OLLAMA_BASE_URL}/api/tags", timeout=10)
+        r.raise_for_status()
+        tags = r.json().get("models", [])
+        have = [m.get("name") for m in tags if m.get("name")]
     except Exception:
         pass
-    pool = [m for m in LLM_POOL if m in have]
-    return jsonify({"ok": bool(pool), "base_url": OLLAMA_BASE_URL, "have": have, "pool": LLM_POOL, "speed_mode": LLM_SPEED_MODE})
+    return jsonify({"ok": True, "base_url": OLLAMA_BASE_URL, "pool": LLM_POOL, "have": have, "speed_mode": LLM_SPEED_MODE})
 
 @app.post("/api/consent")
-def api_consent():
-    j = request.get_json(force=True)
-    consent = bool(j.get("consent")); session_id = j.get("session_id") or uuid.uuid4().hex[:12]; version = "v1"
-    cons_path = ANALYTICS_DIR / "consents.csv"
-    ensure_csv_headers(cons_path, ["ts","session_id","consent","version"])
-    with cons_path.open("a", newline="", encoding="utf-8") as f:
-        csv.writer(f).writerow([now_iso(), session_id, int(consent), version])
-    return jsonify({"ok": True})
+def record_consent():
+    data = request.json or {}
+    consent = bool(data.get("consent"))
+    sid = data.get("session_id") or uuid.uuid4().hex[:12]
+    ts = datetime.datetime.utcnow().isoformat()
+    path = ANALYTICS_DIR/"consents.csv"
+    new = not path.exists()
+    with open(path, "a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if new: w.writerow(["timestamp_utc","session_id","consent"])
+        w.writerow([ts, sid, int(consent)])
+    return jsonify({"ok": True, "session_id": sid})
 
 @app.post("/api/start_session")
-def api_start_session():
-    j = request.get_json(force=True)
+def start_session():
+    data = request.json or {}
+    theme = (data.get("qcm_type") or "").strip()
+    level = (data.get("study_level") or "").strip()
+    sector = (data.get("sector") or "").strip()
     session_id = uuid.uuid4().hex[:12]
-    qcm_type = j.get("qcm_type"); study_level = j.get("study_level"); sector = j.get("sector")
+
     llm_allowed = random.random() < 0.5
-    have = []
-    try:
-        r = requests.get(f"{OLLAMA_BASE_URL}/api/tags", timeout=5); r.raise_for_status()
-        have = [m["name"] for m in r.json().get("models", [])]
-    except Exception:
-        pass
-    pool = [m for m in LLM_POOL if m in have]
-    size_order = {"qwen:latest":1,"qwen2:latest":2,"mistral":2,"llama3:latest":3}
-    model = (sorted(pool, key=lambda m: size_order.get(m,9))[0] if (llm_allowed and pool) else None)
-    RUNTIME["sessions"][session_id] = {
-        "session_id": session_id, "qcm_type": qcm_type, "study_level": study_level, "sector": sector,
-        "llm_allowed": llm_allowed, "llm_model": model, "started_at": now_iso(),
-        "predicted": None, "items": [], "responses": {}
+    chosen_model = None
+    dice_face = None
+    if llm_allowed and LLM_POOL:
+        idx = random.randrange(len(LLM_POOL))
+        chosen_model = LLM_POOL[idx]
+        dice_face = idx+1
+
+    items = select_items(theme, level, sector, n=12)
+    SESSIONS[session_id] = {
+        "id": session_id,
+        "started_at": datetime.datetime.utcnow().isoformat(),
+        "profile": {"theme": theme, "level": level, "sector": sector},
+        "llm_allowed": llm_allowed,
+        "llm_model": chosen_model,
+        "dice_face": dice_face,
+        "items": items,
+        "answers": {},
+        "order": [],
+        "llm_events": [],
+        "predicted": None,
     }
-    (EXPORT_DIR / f"session_{session_id}.jsonl").write_text("")
-    return jsonify({"ok": True, "session_id": session_id, "llm_allowed": llm_allowed, "llm_model": model})
+    return jsonify({
+        "ok": True,
+        "session_id": session_id,
+        "llm_allowed": llm_allowed,
+        "llm_model": chosen_model,
+        "dice_face": dice_face,
+        "items": [{"id": it["id"], "question": it["question"], "options": it["options"]} for it in items]
+    })
 
 @app.post("/api/predict")
-def api_predict():
-    j = request.get_json(force=True)
-    sid = j["session_id"]; pred = float(j["predicted"])
-    RUNTIME["sessions"][sid]["predicted"] = pred
+def set_prediction():
+    data = request.json or {}
+    session_id = data.get("session_id")
+    try:
+        score12 = int(data.get("score12", 0))
+    except Exception:
+        score12 = 0
+    s = SESSIONS.get(session_id)
+    if not s:
+        return jsonify({"ok": False, "error": "session not found"}), 404
+    s["predicted"] = score12
     return jsonify({"ok": True})
 
 @app.get("/api/items")
-def api_items():
-    sid = request.args.get("session_id"); qcm_type = request.args.get("qcm_type")
-    study_level = request.args.get("study_level"); sector = request.args.get("sector")
-    bank = load_bank()
-    cand = [it for it in bank if it.get("theme")==qcm_type and it.get("level")==study_level and it.get("sector")==sector]
-    if len(cand) < 12: cand = [it for it in bank if it.get("theme")==qcm_type and it.get("level")==study_level]
-    if len(cand) < 12: cand = [it for it in bank if it.get("theme")==qcm_type]
-    items = stratified_sample(cand, n=12)
-    RUNTIME["sessions"][sid]["items"] = [it["id"] for it in items]
-    for idx, it in enumerate(items): it["order_index"] = idx
-    return jsonify({"ok": True, "items": items})
+def get_items():
+    theme = request.args.get("qcm_type","")
+    level = request.args.get("study_level","")
+    sector = request.args.get("sector","")
+    items = select_items(theme, level, sector, n=12)
+    return jsonify({"ok": True, "items": [{"id": it["id"], "question": it["question"], "options": it["options"]} for it in items]})
 
 @app.post("/api/record_response")
-def api_record_response():
-    j = request.get_json(force=True)
-    sid = j["session_id"]; qid = j["question_id"]
-    RUNTIME["sessions"][sid]["responses"][qid] = {
-        "order_index": j["order_index"], "selected_index": j["selected_index"],
-        "is_correct": bool(j["is_correct"]), "time_spent_ms": int(j.get("time_spent_ms",0)),
-        "revisits": int(j.get("revisits",0)), "switches": int(j.get("switches",0)), "ts": now_iso()
-    }
+def record_response():
+    data = request.json or {}
+    session_id = data.get("session_id")
+    try:
+        qidx = int(data.get("qidx", -1))
+        selected = int(data.get("selected", -1))
+    except Exception:
+        return jsonify({"ok": False, "error": "bad indices"}), 400
+    ts = datetime.datetime.utcnow().isoformat()
+    s = SESSIONS.get(session_id)
+    if not s:
+        return jsonify({"ok": False, "error": "session not found"}), 404
+    revisits = 0
+    if qidx in s["answers"]:
+        revisits = s["answers"][qidx].get("revisits", 0) + 1
+    s["answers"][qidx] = {"selected": selected, "ts": ts, "revisits": revisits}
+    s["order"].append(qidx)
     return jsonify({"ok": True})
 
 @app.post("/api/llm_chat")
-def api_llm_chat():
-    j = request.get_json(force=True)
-    sid = j["session_id"]; prompt = j["prompt"]
-    sess = RUNTIME["sessions"].get(sid, {})
-    if not sess.get("llm_allowed") or not sess.get("llm_model"):
-        return jsonify({"ok": False, "error": "LLM indisponible pour cette session."}), 403
+def llm_chat():
+    data = request.json or {}
+    session_id = data.get("session_id")
+    prompt = (data.get("prompt") or "").strip()
+    s = SESSIONS.get(session_id)
+    if not s:
+        return jsonify({"ok": False, "error": "session not found"}), 404
+    if not s.get("llm_allowed"):
+        return jsonify({"ok": False, "error": "LLM non autorisé pour cette session."}), 403
+
+    model = s.get("llm_model") or (LLM_POOL[0] if LLM_POOL else "mistral:latest")
+    payload = {
+        "model": model,
+        "stream": False,
+        "options": {"num_predict": LLM_NUM_PREDICT, "num_ctx": LLM_NUM_CTX, "temperature": 0.7},
+        "messages": [
+            {"role":"system","content":"Tu es un assistant concis. Donne des indices et explications simples sans révéler la réponse brute si possible."},
+            {"role":"user","content": prompt}
+        ]
+    }
+    started = time.time()
     try:
-        r = requests.post(f"{OLLAMA_BASE_URL}/api/generate", json={
-            "model": sess["llm_model"], "prompt": prompt,
-            "options": {"num_predict": LLM_NUM_PREDICT, "num_ctx": LLM_NUM_CTX, "temperature": 0.2},
-            "stream": False
-        }, timeout=60)
+        r = requests.post(f"{OLLAMA_BASE_URL}/api/chat", json=payload, timeout=LLM_TIMEOUT)
         r.raise_for_status()
-        text = r.json().get("response","").strip()
-        return jsonify({"ok": True, "text": text})
+        out = r.json()
+        content = (out.get("message") or {}).get("content") or out.get("response") or ""
+    except requests.exceptions.Timeout:
+        content = "⏳ Le modèle met trop de temps à répondre. Réessayez (timeout)."
     except Exception as e:
-        return jsonify({"ok": False, "error": f"Erreur LLM: {e}"}), 500
+        content = f"Erreur LLM: {str(e)}"
+    elapsed = time.time() - started
+    s["llm_events"].append({"prompt": prompt, "response": content, "elapsed": elapsed, "model": model, "ts": datetime.datetime.utcnow().isoformat()})
+    return jsonify({"ok": True, "model": model, "response": content, "elapsed": elapsed})
+
+def save_session(s: Dict[str,Any]):
+    sid = s["id"]
+    items = s["items"]
+    df_rows = []
+    corrects = 0
+    for i,it in enumerate(items):
+        ans = s["answers"].get(i, {})
+        sel = ans.get("selected", -1)
+        is_correct = int(sel == it["answer_index"])
+        corrects += is_correct
+        df_rows.append({
+            "session_id": sid,
+            "qidx": i,
+            "item_id": it["id"],
+            "theme": it["theme"],
+            "level": it["level"],
+            "sector": it["sector"],
+            "b": it.get("b"),
+            "selected_index": sel,
+            "correct_index": it["answer_index"],
+            "is_correct": is_correct,
+            "revisits": ans.get("revisits", 0),
+            "answered_at_utc": ans.get("ts")
+        })
+    df = pd.DataFrame(df_rows)
+    session_csv = SESSION_DIR/f"session_{sid}.csv"
+    df.to_csv(session_csv, index=False)
+
+    diff = [{"qidx": i, "item_id": it["id"], "b": it.get("b")} for i,it in enumerate(items)]
+    (SESSION_DIR/f"session_{sid}_difficulty.json").write_text(json.dumps(diff, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    mean_score = 12.0*corrects/len(items) if items else 0.0
+    agg_path = ANALYTICS_DIR/"scores_by_level_and_sector.csv"
+    new = not agg_path.exists()
+    with open(agg_path, "a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if new:
+            w.writerow(["timestamp_utc","session_id","level","sector","theme","score_over_12"])
+        prof = s["profile"]
+        w.writerow([datetime.datetime.utcnow().isoformat(), sid, prof.get("level"), prof.get("sector"), prof.get("theme"), mean_score])
+
+    corr_path = ANALYTICS_DIR/"correlation_field_theme.csv"
+    new2 = not corr_path.exists()
+    with open(corr_path, "a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if new2:
+            w.writerow(["timestamp_utc","session_id","sector","theme","score_over_12"])
+        w.writerow([datetime.datetime.utcnow().isoformat(), sid, s["profile"].get("sector"), s["profile"].get("theme"), mean_score])
+
+    return corrects, mean_score, session_csv
 
 @app.post("/api/end_session")
-def api_end_session():
-    j = request.get_json(force=True); sid = j["session_id"]
-    sess = RUNTIME["sessions"].get(sid)
-    if not sess: return jsonify({"ok": False, "error":"session inconnue"}), 404
-    bank = load_bank(); bank_map = {it["id"]:it for it in bank}
-    rows = []; corrects = 0; resp_list = []
-    for qid in sess["items"]:
-        it = bank_map[qid]; r = sess["responses"].get(qid, {})
-        corr = bool(r.get("is_correct", False)); corrects += int(corr)
-        rows.append({
-            "session_id": sid, "ts": now_iso(), "qcm_type": sess["qcm_type"],
-            "study_level": sess["study_level"], "sector": sess["sector"],
-            "llm_allowed": int(sess["llm_allowed"]), "llm_model": sess["llm_model"] or "",
-            "question_id": qid, "order_index": r.get("order_index"),
-            "selected_index": r.get("selected_index"), "answer_index": it.get("answer_index"),
-            "is_correct": int(corr), "time_spent_ms": r.get("time_spent_ms",0),
-            "revisits": r.get("revisits",0), "switches": r.get("switches",0),
-            "a": it.get("a",1.0), "b": it.get("b",0.0), "c": it.get("c",0.2)
-        })
-        resp_list.append((corr, it.get("a",1.0), it.get("b",0.0), it.get("c",0.2)))
-    final_score = corrects
-    theta_hat = estimate_theta_grid(resp_list) if resp_list else 0.0
-    diff_rows = []
-    for qid in sess["items"]:
-        it = bank_map[qid]; a,b,c = it.get("a",1.0), it.get("b",0.0), it.get("c",0.2)
-        diff_rows.append({"question_id": qid, "a":a,"b":b,"c":c, "theta_hat": theta_hat, "p_correct_theta": three_pl_p(a,b,c,theta_hat)})
-    pd.DataFrame(rows).to_csv(EXPORT_DIR / f"session_{sid}.csv", index=False)
-    (EXPORT_DIR / f"session_{sid}_difficulty.json").write_text(json.dumps(diff_rows, ensure_ascii=False, indent=2))
-    all_path = ANALYTICS_DIR / "all_sessions.csv"
-    ensure_csv_headers(all_path, ["session_id","qcm_type","study_level","sector","llm_allowed","llm_model","predicted_score","final_score"])
-    with all_path.open("a", newline="", encoding="utf-8") as f:
-        csv.writer(f).writerow([sid, sess["qcm_type"], sess["study_level"], sess["sector"],
-                                int(sess["llm_allowed"]), sess["llm_model"] or "", sess.get("predicted", None), final_score])
-    try: update_aggregates()
-    except Exception: pass
-    return jsonify({"ok": True, "final_score": int(final_score), "theta_hat": theta_hat, "items_modeled": len(diff_rows)})
+def end_session():
+    data = request.json or {}
+    session_id = data.get("session_id")
+    s = SESSIONS.get(session_id)
+    if not s:
+        return jsonify({"ok": False, "error": "session not found"}), 404
+    corrects, mean_score, _ = save_session(s)
+    total = len(s["items"])
+    return jsonify({
+        "ok": True,
+        "score_over_12": float(12.0*corrects/total if total else 0.0),
+        "corrects": int(corrects),
+        "total": int(total),
+        "predicted": s.get("predicted"),
+        "llm_allowed": s.get("llm_allowed"),
+        "llm_model": s.get("llm_model")
+    })
 
-@app.route("/static/<path:filename>")
-def static_files(filename):
-    return send_from_directory(BASE_DIR / "static", filename)
+@app.route("/static/<path:path>")
+def static_files(path):
+    return send_from_directory(app.static_folder, path)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="127.0.0.1", port=5050, debug=True)
