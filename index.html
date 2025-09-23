@@ -1,95 +1,138 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Simulation QCM + LLM</title>
-  <link rel="stylesheet" href="/static/style.css?v=10" />
+  <link rel="stylesheet" href="/static/style.css?v=10"/>
 </head>
 <body>
-  <div class="container">
+  <main id="app">
 
-    <section id="screen-intro" class="screen visible fade-in">
-      <h1>Étude expérimentale : QCM avec ou sans LLM</h1>
-      <p>Bienvenue ! Cette expérience observe l'impact d’un assistant IA (LLM) sur des QCM. Certaines sessions ont accès à un LLM intégré à l’interface, d’autres non (tirage aléatoire). Les réponses sont <strong>anonymes</strong>. Nous mesurons l’ordre, les retours aux questions, le temps de réflexion et l’usage du LLM. À la fin, nous modélisons la <em>difficulté</em> (3PL) de chaque item.</p>
-      <p class="note">Données traitées dans le cadre d’une étude pédagogique. Aucune donnée nominative n’est collectée.</p>
-      <button class="btn-rumba transparent" id="go-consent"><span class="label">Continuer</span></button>
-    </section>
-
-    <section id="screen-consent" class="screen">
-      <h2>Consentement éclairé</h2>
-      <p>Cette étude respecte le <strong>RGPD</strong> et la <strong>Loi Informatique et Libertés</strong>. Vos données sont anonymisées (ID aléatoire), conservées localement le temps de l’analyse, sans transfert externe. Vous pouvez interrompre à tout moment sans justification. Participation volontaire, sans compensation.</p>
-      <label class="consent"><input type="checkbox" id="consent-box"> <span>Je consens à participer de manière anonyme à l’étude.</span></label>
-      <div class="actions"><button class="btn-rumba transparent" id="consent-continue" disabled>J’accepte et je continue</button></div>
-    </section>
-
-    <section id="screen-params" class="screen">
-      <h2>Paramétrage</h2>
-      <div class="grid">
-        <label>Thématique
-          <select id="qcm_type">
-            <option value="commerce">Commerce</option>
-            <option value="immobilier">Immobilier</option>
-            <option value="supplychain">SupplyChain</option>
-            <option value="politique">Politique</option>
-            <option value="mathematiques">Mathématiques</option>
-            <option value="culture">Culture générale</option>
-          </select>
-        </label>
-        <label>Niveau d’étude
-          <select id="study_level"><option>Lycée</option><option>Licence</option><option>Master</option></select>
-        </label>
-        <label>Secteur
-          <select id="sector">
-            <option value="commerce">Commerce</option>
-            <option value="immobilier">Immobilier</option>
-            <option value="supplychain">SupplyChain</option>
-            <option value="autre">Autre</option>
-          </select>
+    <!-- Étape 1 : Intro + Consentement -->
+    <section class="card step active" id="step-intro">
+      <h1>Étude expérimentale — QCM & assistance LLM</h1>
+      <p>
+        Bienvenue ! Cette étude évalue l’impact d’un assistant LLM local sur des QCM (12 questions).
+        Le tirage au sort déterminera si vous avez droit à l’assistant.
+        Si autorisé, un second tirage choisira le modèle (parmi votre pool local).<br/>
+        Tout est anonyme. Vos interactions (temps, changements de réponse, ordre de navigation, usage LLM) sont enregistrées
+        pour une analyse scientifique. Vous pouvez quitter à tout moment.
+      </p>
+      <div class="consent-row">
+        <input id="consent" type="checkbox"/>
+        <label for="consent">
+          Je consens à participer à l’étude (anonyme) conformément au droit français
+          (RGPD, consentement éclairé, droit d’opposition et d’effacement).
         </label>
       </div>
-      <div class="actions"><button class="btn-rumba transparent" id="btn-begin">Débuter</button></div>
-      <div id="llm-ping" class="ping"></div>
+      <button id="btn-to-profile" class="btn-rumba-light" disabled>Continuer</button>
+      <div class="foot-note">Le bouton s’active une fois le consentement coché.</div>
     </section>
 
-    <section id="screen-draw" class="screen">
-      <h2>Tirage au sort</h2>
-      <div class="coin" id="coin"></div>
-      <p id="coin-result" class="result"></p>
-      <div class="dice hidden" id="dice">🎲</div>
-      <p id="dice-result" class="result"></p>
-      <div class="actions"><button class="btn-rumba transparent" id="to-predict" disabled>Continuer</button></div>
-    </section>
-
-    <section id="screen-predict" class="screen">
-      <h2>Prédisez votre score /12</h2>
-      <input id="pred-input" type="number" min="0" max="12" step="1" value="6">
-      <div class="actions"><button class="btn-rumba transparent" id="pred-go">Valider</button></div>
-    </section>
-
-    <section id="screen-qcm" class="screen">
-      <h2>QCM</h2>
-      <div class="qcm-wrapper" id="qcm-wrapper"><div class="qcm-track" id="qcm-track"></div></div>
-      <aside class="llm-panel" id="llm-panel">
-        <h3>Assistant LLM</h3>
-        <div id="llm-status" class="status">Disponibilité…</div>
-        <div id="llm-chat-log" class="chat-log"></div>
-        <div class="chat-input">
-          <input id="llm-input" placeholder="Posez votre question…" />
-          <button class="btn-rumba transparent" id="llm-send">Envoyer</button>
+    <!-- Étape 2 : Profil & paramètres -->
+    <section class="card step" id="step-profile">
+      <h2>Profil & paramètres</h2>
+      <div class="grid-3">
+        <div class="field">
+          <label>Thématique du QCM</label>
+          <select id="qcm_type" class="pill-select">
+            <option value="commerce">Commerce</option>
+            <option value="immobilier">Immobilier</option>
+            <option value="mathématiques">Mathématiques</option>
+            <option value="culture générale">Culture générale</option>
+          </select>
         </div>
-      </aside>
-      <div class="actions full"><button class="btn-rumba transparent" id="finish">Terminer</button></div>
+        <div class="field">
+          <label>Niveau d’étude</label>
+          <select id="study_level" class="pill-select">
+            <option>Licence</option>
+            <option>Master</option>
+            <option>Bac+2</option>
+            <option>Doctorat</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Secteur d’étude / travail</label>
+          <select id="sector" class="pill-select">
+            <option>commerce</option>
+            <option>immobilier</option>
+            <option>sciences</option>
+            <option>culture</option>
+            <option>général</option>
+          </select>
+        </div>
+      </div>
+      <div class="profile-actions">
+        <button id="btn-test-llm" class="btn-rumba-light outline">Tester LLM local</button>
+        <button id="btn-start" class="btn-rumba-light">Débuter</button>
+      </div>
+      <div id="llm-ping-result" class="mono small"></div>
     </section>
 
-    <section id="screen-result" class="screen">
+    <!-- Étape 3 : Tirage au sort -->
+    <section class="card step" id="step-random">
+      <h2>Résultat du tirage</h2>
+      <div class="coin-area">
+        <div class="coin" id="coin"></div>
+      </div>
+      <div id="coin-info" class="center mono"></div>
+      <div id="dice-area" class="dice-area hidden">
+        <div class="dice" id="dice"></div>
+      </div>
+      <div id="dice-info" class="center mono"></div>
+      <button id="btn-to-prediction" class="btn-rumba-light" disabled>Continuer</button>
+      <div class="foot-note small muted center">
+        Interprétation : Pile/Face ⇒ <b>LLM autorisé ou non</b>. Si autorisé, le dé indique <b>quel modèle</b> du pool est sélectionné.
+      </div>
+    </section>
+
+    <!-- Étape 4 : Prédiction -->
+    <section class="card step" id="step-predict">
+      <h2>Votre prédiction (sur 12)</h2>
+      <div class="predict-wrap">
+        <input id="predict" type="range" min="0" max="12" step="1" value="6"/>
+        <input id="predict-input" type="number" min="0" max="12" step="1" value="6" class="predict-input" />
+        <div class="predict-value"><span id="predict-value">6</span> / 12</div>
+      </div>
+      <button id="btn-to-qcm" class="btn-rumba-light">Commencer le QCM</button>
+    </section>
+
+    <!-- Étape 5 : QCM -->
+    <section class="card step" id="step-qcm">
+      <h2>QCM (12 questions)</h2>
+      <div id="qcm-list"></div>
+
+      <div class="qcm-actions center">
+        <button id="btn-finish" class="btn-rumba-light">Terminer la session</button>
+      </div>
+
+      <!-- LLM chat box (bas de page) -->
+      <div id="llm-box" class="llm-box">
+        <h3>Assistance LLM</h3>
+        <div id="llm-model-note" class="mono small"></div>
+        <textarea id="llm-input" placeholder="Posez votre question au modèle…"></textarea>
+        <button id="btn-ask" class="btn-rumba-light">Envoyer</button>
+        <div id="llm-status" class="mono small muted"></div>
+        <div id="llm-output" class="llm-output"></div>
+      </div>
+    </section>
+
+    <!-- Étape 6 : Résultats -->
+    <section class="card step" id="step-results">
       <h2>Résultats</h2>
-      <div id="result-box"></div>
-      <p class="note">Merci pour votre participation.</p>
-      <div class="actions"><button class="btn-rumba transparent" onclick="window.location.reload()">Relancer</button></div>
+      <div id="result-summary" class="big"></div>
+      <div class="foot-note">Merci pour votre participation. Vous pouvez fermer la fenêtre.</div>
     </section>
 
-  </div>
+    <!-- Bouton flottant (fixé à l'écran) -->
+    <button id="btn-float-ask" class="btn-rumba-light float-btn hidden">Demander à <span id="float-model"></span></button>
+
+  </main>
+
+  <script>
+    window.APP_CFG = { coinDurationMs: 1800, diceDurationMs: 1400 };
+  </script>
   <script src="/static/app.js?v=10"></script>
 </body>
 </html>
